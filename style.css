@@ -1,0 +1,94 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 6%);
+    color: #fff;
+}
+
+button{
+    border: transparent;
+    outline: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    box-sizing: border-box;
+    width: 40%;
+    background-color: hsl(0, 0%, 10%);
+    margin: auto;
+    margin-top: 15%;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.star{
+    height: 30px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: hsl(0, 0%, 14%);
+    text-align: center;
+    padding-top: 6px;
+    cursor: pointer;
+    color:  hsl(25, 97%, 53%);
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 97%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+   
+}
+
+
+
+.submit{
+    width: 97%;
+    border-radius: 15px;
+    height: 30px;
+    cursor: pointer;
+    background-color:  hsl(25, 97%, 53%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.submit:hover{
+    background-color: white;
+    color:  hsl(25, 97%, 53%);
+}
+
+.b1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: hsl(0, 0%, 14%);
+    transition: 0.5s;
+}
+
+.b1:hover{
+    background-color: white;
+    color: hsl(0, 0%, 13%);
+}
+
+
+@media screen and (max-width:600px) {
+
+    .container{
+        width: 90%;
+        margin-top: 25%;
+        height: 60vh;
+    }
+    
+}
